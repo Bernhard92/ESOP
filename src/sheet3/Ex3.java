@@ -4,13 +4,15 @@ package sheet3;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import sheet4.apple.Apfel;
+
 /**
  * @author bejahrer
  *
  */
 
 public class Ex3 {
-
+	
 	public static void main(String[] args) {
 		Ex3 instance = new Ex3();
 		// 1

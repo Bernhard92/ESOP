@@ -9,7 +9,7 @@ public class WaterWork {
 		waterTanks = new WaterTank[NUMBER_OF_WATER_TANKS];
 
 		for (int i = 0; i < waterTanks.length; i++) {
-			waterTanks[i] = new WaterTank(2000); 
+			waterTanks[i] = new WaterTank(); 
 		}
 	}
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 
- * @author bejahrer
+ * @author Bernhard Jahrer
  *
  */
 
@@ -46,23 +46,6 @@ public class Sheet4 {
 
 		// Aufgabe 8
 		divide();
-
-		// Aufgabe 9
-
-		// Aufgabe 10
-
-		// Aufgabe 11
-
-		// Aufgabe 12
-
-		// Aufgabe 13
-
-		// Aufgabe 14
-
-		// Aufgabe 15
-
-		// Aufgabe 16
-
 	}
 
 	/*
