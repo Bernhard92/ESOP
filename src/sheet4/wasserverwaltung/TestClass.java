@@ -11,6 +11,5 @@ public class TestClass {
 		waterWork.addWater(5, 300); 
 		
 		System.out.println(waterWork.getTotalWaterLevel());
-		
 	}
 }
