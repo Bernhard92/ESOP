@@ -1,4 +1,4 @@
-package sheet5.Studentenverwaltung;
+package sheet6.studentenverwaltung;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,16 +12,15 @@ import java.util.Map;
 public class Model {
 
 	private HashMap<String, String> students;
-	private File savedData; 
-
+	private File savedData;
 
 	public Model() {
 		savedData = new File("data.txt");
-		students = new HashMap<>(); 
-		
+		students = new HashMap<>();
+
 		if (savedData.exists())
-			loadDataFromFile(savedData);			
-			
+			loadDataFromFile(savedData);
+
 	}
 
 	public void addStudent(String matrNr, String name) {
@@ -61,7 +60,7 @@ public class Model {
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(savedData));
 			for (Map.Entry<String, String> e : students.entrySet())
-				bw.write(e.getKey() + " " + e.getValue()+"\n");
+				bw.write(e.getKey() + " " + e.getValue() + "\n");
 			bw.close();
 		} catch (IOException e) {
 			System.out.println("Fehler beim Speichern der Daten!");

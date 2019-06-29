@@ -1,0 +1,8 @@
+P b j 789
+P t j 456
+P c j 123
+P g p 123
+R 0 T 3 T 2
+R 1 F X T 2
+R 2 F X F X
+R 3 F X F X

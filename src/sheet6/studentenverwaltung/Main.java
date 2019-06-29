@@ -1,7 +1,11 @@
-package sheet5.Studentenverwaltung;
+package sheet6.studentenverwaltung;
 
 import java.util.Scanner;
 
+/**
+ * @author bejahrer
+ *
+ */
 public class Main{
 	
 	
@@ -39,6 +43,7 @@ public class Main{
 					break; 
 				default:
 					System.out.println("Befehl nicht gefunden!");
+					break;
 					
 			}
 		}
